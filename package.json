@@ -6,9 +6,7 @@
   "dependencies": {
     "yuidocjs": "~0.3.42"
   },
-  "devDependencies": {
-    "yuidocjs": "~0.3.42"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:jjperezaguinaga/AES.git"
