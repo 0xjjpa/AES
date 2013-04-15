@@ -11,9 +11,9 @@ para la encriptación de inputs de 128 bits.
 */
 function AES() {
   /**
-  * Sbox 
+  * Variable Sbox constante utilizada en el proceso de substitución de bytes
   *
-  * @property Variable Sbox constante utilizada en el proceso de substitución de bytes
+  * @property sbox
   * @type {Array}
   * @private
   */
