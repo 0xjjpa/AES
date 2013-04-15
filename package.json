@@ -1,0 +1,23 @@
+{
+  "name": "AES-128",
+  "version": "0.0.1",
+  "description": "A javascript implementation of the AES standard",
+  "main": "aes.js",
+  "dependencies": {
+    "yuidocjs": "~0.3.42"
+  },
+  "devDependencies": {
+    "yuidocjs": "~0.3.42"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jjperezaguinaga/AES.git"
+  },
+  "keywords": [
+    "AES"
+  ],
+  "author": "jjperezaguinaga",
+  "license": "BSD",
+  "readmeFilename": "README",
+  "gitHead": "3f4caabd35557c44e4e54ab883524340c993cea7"
+}
