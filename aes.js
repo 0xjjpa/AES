@@ -11,6 +11,42 @@ para la encriptación de inputs de 128 bits.
 */
 function AES() {
   /**
+  * Numero de palabras de 32 bits (numero de colúmnas utilizadas en el Estado -State-)
+  *
+  * @property NB
+  * @type {Number}
+  * @private
+  */
+    var NB = 4;
+
+  /**
+  * Numero de rondas a realizar durante la ejecución del algoritmo AES, 128=10,192=12,256=14 
+  *
+  * @property NR
+  * @type {Number}
+  * @private
+  */
+    var NR = null;
+
+  /**
+  * Inicialmente conteniendo el input de entrada, es la matrix principal donde se realizan las operaciones del AES. 
+  *
+  * @property state
+  * @type {Matrix}
+  * @private
+  */
+    var state = [new Array(NB), new Array(NB), new Array(NB), new Array(NB)];
+
+  /**
+  * Salida del Algoritmo de AES. Su tamaño corresponde al tamaño de bloques por 4.
+  *
+  * @property output
+  * @type {Array}
+  * @private
+  */
+    var output = new Array(NB * 4)
+
+  /**
   * Variable Sbox constante utilizada en el proceso de substitución de bytes
   *
   * @property sbox
@@ -63,6 +99,7 @@ function AES() {
   * @private
   */
     var cipher = function(input, word) {
+
 
     }
 }
